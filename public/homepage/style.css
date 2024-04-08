@@ -1,0 +1,107 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 5;
+}
+
+body {
+    background-image: url('../../shared/assets/tasky.png');
+}
+
+#introduction>.container>div {
+    display: relative;
+    background-image: url('../../shared/assets/tasky.png');
+}
+
+.my-picture > img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    z-index: 6;
+}
+
+.nav-pills .nav-item .nav-link {
+    color: white; 
+}
+
+.nav-pills .nav-item .nav-link.active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#resume-button {
+    background-color: white;
+    color: black;
+}
+
+#resume-button {
+    border: 0;
+    background-color: #0fa;
+    animation: flicker 1.5s infinite alternate;
+}
+
+#projects-button:hover {
+    border-color: #0fa;
+    background-color: transparent;
+    animation: pulsate 2.5s infinite alternate; 
+}
+
+#skills i {
+    margin-right: 20px;
+}
+
+#skills img {
+    filter: invert(100%);
+    margin-right: 10px;
+    padding: 0;
+}
+
+.col > .card:hover {
+    border-color: #0fa;
+}
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        box-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa;
+    }
+    
+    20%, 24%, 55% {        
+        box-shadow: none;
+    }
+  }
+
+
+  @keyframes pulsate {
+    100% {
+      /* Larger blur radius */
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    }
+    0% {
+      /* Smaller blur radius */
+      text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #fff,
+        0 0 10px #0fa,
+        0 0 45px #0fa,
+        0 0 55px #0fa,
+        0 0 70px #0fa,
+        0 0 80px #0fa;
+    }
+  }
+
+  
