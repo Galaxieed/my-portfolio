@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resume.css">
+    <link rel="stylesheet" href="../../shared/styles/nav-bar.css">
+</head>
+
+<body>
+    <section id="navBar">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <p class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
+                    <span class="fs-3">Charles Pillos</span>&nbsp;|&nbsp;FULLSTACK DEVELOPER
+                </p>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="../../index.html" class="nav-link">About Me</a></li>
+                    <li class=" nav-item"><a class="nav-link active" aria-current="page">Resume</a></li>
+                    <li class=" nav-item"><a href="#" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </header>
+        </div>
+    </section>
+
+    <section id="resumeSec">
+        <div class="container mt-5">
+            <h2 class="pb-2 border-bottom">Resume</h2>
+            <iframe id="resume" src="../../shared/assets/MyResume.pdf#toolbar=0" readonly>
+            </iframe>
+        </div>
+    </section>
+
+    <section id="certificatesSection">
+        <div id="carouselExampleIndicators" class="container carousel slide mt-5">
+            <h2 class="pb-2 border-bottom">Certificates</h2>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../../shared/assets/Angular - The Complete Guide (2024 Edition).jpg" class="d-block w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../shared/assets/Git Complete The definitive, step-by-step guide to Git.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../shared/assets/Learn Visual Studio Code (2020).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../shared/assets/The Complete 2024 Web Development Bootcamp.jpg" class="d-block w-100"
+                        alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 text-body-secondary">© 2024</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-body-secondary"
+                            href="https://www.facebook.com/profile.php?id=100008469936641"><i
+                                class="fa-brands fa-facebook-f fa-shake"></i></a>
+                    </li>
+                    <li class="ms-3"><a class="text-body-secondary" href="https://github.com/Galaxieed"><i
+                                class="fa-brands fa-github fa-beat"></i></a>
+                    </li>
+                    <li class="ms-3"><a class="text-body-secondary"
+                            href="https://www.instagram.com/invites/contact/?i=70ze2qaeh2y2&utm_content=mozo5vq"><i
+                                class="fa-brands fa-square-instagram fa-bounce"></i></a></li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/2a08732c3b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/homepage/style.css">
+    <link rel="stylesheet" href="./shared/styles/nav-bar.css">
 </head>
 
 <body>
@@ -22,8 +23,8 @@
                 </p>
 
                 <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">About Me</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page">About Me</a></li>
+                    <li class="nav-item"><a href="./public/resume/resume.html" class="nav-link">Resume</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                 </ul>
@@ -131,25 +132,27 @@
                 <div class="col">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                         style="background-image: url('./shared/assets/neighboard.png');">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Neighboard | A Community Platform</h3>
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <i class="fa-brands fa-github fa-2x"></i>
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>Flutter</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>3d</small>
-                                </li>
-                            </ul>
+                        <div class="blurry">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Neighboard | A Community Platform</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <i class="fa-brands fa-github fa-2x"></i>
+                                    </li>
+                                    <li class="d-flex align-items-center me-3">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#geo-fill"></use>
+                                        </svg>
+                                        <small>Flutter</small>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#calendar3"></use>
+                                        </svg>
+                                        <small>3d</small>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -157,26 +160,29 @@
                 <div class="col">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                         style="background-image: url('./shared/assets/advantages-cms.jpg');">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Canteen Management System | Inventory &
-                                POS</h3>
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <i class="fa-brands fa-github fa-2x"></i>
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>VB.Net</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>4d</small>
-                                </li>
-                            </ul>
+                        <div class="blurry">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Canteen Management System | Inventory
+                                    &
+                                    POS</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <i class="fa-brands fa-github fa-2x"></i>
+                                    </li>
+                                    <li class="d-flex align-items-center me-3">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#geo-fill"></use>
+                                        </svg>
+                                        <small>VB.Net</small>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#calendar3"></use>
+                                        </svg>
+                                        <small>4d</small>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -184,25 +190,27 @@
                 <div class="col">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                         style="background-image: url('./shared/assets/anime.jpg');">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Anime Webscrape</h3>
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <i class="fa-brands fa-github fa-2x"></i>
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>React</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>5d</small>
-                                </li>
-                            </ul>
+                        <div class="blurry">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Anime Webscrape</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <i class="fa-brands fa-github fa-2x"></i>
+                                    </li>
+                                    <li class="d-flex align-items-center me-3">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#geo-fill"></use>
+                                        </svg>
+                                        <small>React</small>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#calendar3"></use>
+                                        </svg>
+                                        <small>5d</small>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>

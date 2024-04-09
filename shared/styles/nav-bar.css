@@ -1,0 +1,21 @@
+.nav-pills .nav-item .nav-link {
+    color: white; 
+    margin-left: 10px;
+    border-radius: 50px;
+}
+.nav-pills .nav-item .nav-link:hover {
+    background-color: rgba(245, 245, 245, 70%);
+    color: black;
+    text-align: center;
+}
+.nav-pills .nav-item .nav-link.active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* #navBar>.container>header {
+    border: 1px solid white;
+    padding: 50px;
+    border-radius: 50px;
+    margin-top: 40px;
+} */
